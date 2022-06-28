@@ -12,15 +12,15 @@ import java.util.Properties;
 
 public class Utils {
     protected static void authenticate(String email, String url) throws MessagingException {
-        final String username = "mwimakat@yahoo.com";
-        final String password = "gbvpkxuxkquljzqx";
+        final String username = "USERNAME";
+        final String password = "PASSWORD";
 
         Properties props = new Properties();
         props.setProperty("mail.store.protocol", "imaps");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.auth", "true");
-        props.put("mail.smtp.host", "smtp.mail.yahoo.com");
-        props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.host", "SMTPHOST");
+        props.put("mail.smtp.port", "SMTPPORT");
 
         Session session = Session.getInstance(props, new Authenticator() {
             @Override
