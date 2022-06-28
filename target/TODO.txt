@@ -1,3 +1,0 @@
-filter rent
-filter location
-filter state

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="LanguageInjectionConfiguration">
-    <injection language="MySQL" injector-id="xml">
-      <display-name>query/@sql</display-name>
-      <place>xmlAttribute().withLocalName(string().equalTo(&quot;sql&quot;)).withParent(xmlTag().withLocalName(string().equalTo(&quot;query&quot;)))</place>
-    </injection>
-  </component>
-</project>
