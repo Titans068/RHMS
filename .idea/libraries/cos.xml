@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cos">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/RHMS-1.0-SNAPSHOT/WEB-INF/lib/cos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/RHMS-1.0-SNAPSHOT/WEB-INF/lib/fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/RHMS-1.0-SNAPSHOT/WEB-INF/lib/struts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/RHMS-1.0-SNAPSHOT/WEB-INF/lib/uploadbean.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
